@@ -16,3 +16,18 @@ Java is a high-level, object-oriented programming language that is designed to b
 2. Startup Time: Java applications may have a longer startup time compared to languages that are compiled to native code.
 
 3. Learning Curve: Java's extensive ecosystem and libraries can make it challenging for beginners to learn the language quickly.
+
+# java components
+
+## java code(.java file)
+ – this is the java code you have written, and its saved in the .java file(s)
+
+## javac compiler:
+ compile the source code files(.java) into a bytecode so that the jmv will be execute it.Bytecode is saved in a class file by compiler.
+
+ ## Bytecode
+
+ the resulting code after the source code has been executed by the compiler.
+
+ ## Java Virtual Machine (JVM)
+
