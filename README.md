@@ -108,3 +108,117 @@ main: It is the method name. This is the entry point method from which the JVM c
 String [] args: Used for command line arguments that are passed as strings.
 
 System.out println("Hello World"); -: This method prints the contents inside the double quotes into the console and inserts a newline after
+
+
+# Structure of a java program
+ 
+1. **Package Declaration:**
+   Java programs often start with a package declaration. A package is a way to organize related classes. It is not mandatory, but it's good practice to include it. For example:
+
+   ```java
+   package com.example.myprogram;
+   ```
+
+2. **Import Statements:**
+   After the package declaration, you may have import statements. These statements allow you to use classes from other packages without having to use their fully qualified names. For example:
+
+   ```java
+   import java.util.Scanner;
+   ```
+
+3. **Class Declaration:**
+   A Java program must have at least one class, and the main class should have a `main` method where the program execution begins. The class name should match the filename (excluding the .java extension). For example:
+
+   ```java
+   public class Main {
+       public static void main(String[] args) {
+           // Program logic goes here
+       }
+   }
+   ```
+
+4. **Comments:**
+   Comments are used to explain the code and are not executed by the compiler. They can be single-line (`//`) or multi-line (`/* */`). For example:
+
+   ```java
+   // This is a single-line comment
+
+   /*
+   This is a multi-line comment.
+   It can span multiple lines.
+   */
+   ```
+
+5. **Variables:**
+   Declare variables to store data. Java is statically typed, so you need to specify the data type of each variable. For example:
+
+   ```java
+   int age = 25;
+   String name = "John";
+   ```
+
+6. **Methods:**
+   Methods are blocks of code that perform a specific task. The `main` method is the entry point of a Java program, and other methods are defined as needed. For example:
+
+   ```java
+   public static void main(String[] args) {
+       // Program logic goes here
+   }
+
+   public static int addNumbers(int a, int b) {
+       return a + b;
+   }
+   ```
+
+7. **Control Flow Statements:**
+   Use control flow statements like `if`, `else`, `while`, `for`, etc., to control the flow of execution in your program. For example:
+
+   ```java
+   if (condition) {
+       // Code to execute if the condition is true
+   } else {
+       // Code to execute if the condition is false
+   }
+
+   for (int i = 0; i < 5; i++) {
+       // Code to repeat multiple times
+   }
+   ```
+
+8. **Object-Oriented Features:**
+   Java is an object-oriented programming language, and programs often involve creating classes and objects. You might use concepts like inheritance, encapsulation, and polymorphism.
+
+9. **Exception Handling:**
+   Java provides exception handling with `try`, `catch`, `finally`, and `throw` statements to deal with runtime errors. For example:
+
+   ```java
+   try {
+       // Code that might throw an exception
+   } catch (Exception e) {
+       // Code to handle the exception
+   } finally {
+       // Code that will be executed regardless of whether an exception occurs or not
+   }
+   ```
+
+10. **Documentation:**
+    It's a good practice to include documentation for your classes and methods using JavaDoc comments. For example:
+
+    ```java
+    /**
+     * This is a JavaDoc comment for the MyClass class.
+     */
+    public class MyClass {
+        /**
+         * This is a JavaDoc comment for the myMethod method.
+         * @param param1 Description of parameter 1
+         * @param param2 Description of parameter 2
+         * @return Description of the return value
+         */
+        public int myMethod(int param1, int param2) {
+            // Method logic goes here
+        }
+    }
+    ```
+
+Remember, this is a basic structure, and the actual structure can vary based on the complexity and purpose of the program. It's also common to organize code into multiple classes and packages for larger projects.
