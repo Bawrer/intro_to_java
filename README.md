@@ -33,3 +33,4 @@ Java is a high-level, object-oriented programming language that is designed to b
 
 the primary function used to execute the bytecode produced by the compiler.
 
+every os has its jvm, the output after execution of bytecode is the same accross all OS, that is why java is platform independent.
