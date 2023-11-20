@@ -39,3 +39,5 @@ every os has its jvm, the output after execution of bytecode is the same accross
 1. write a java program in an IDE with exwntion .java
 
 2. the javac compiler is the primary compiler included in the JDK. It takes program as an input and convert it into java bytecode as an output
+
+3. Java Virtual machine
