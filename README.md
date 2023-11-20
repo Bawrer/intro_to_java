@@ -83,3 +83,11 @@ Follow the installation instructions provided on the download page.
 
 ## Set the PATH variable:
 Add the JDK bin directory to your system's PATH variable. This allows you to run Java commands from any command prompt.
+
+## java first program
+public class firstProgram {
+   public static void main(String[]args){
+      System.out.println("hello world");
+   }
+
+} 
