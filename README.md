@@ -48,3 +48,24 @@ for you as a programmer you need to have JDK in order to be able to create java 
 
 ## JRE
  is the runtime environment required for running Java applications. It includes the JVM and other libraries that are needed for running Java programs but not for compiling them.
+
+ # java Main features
+
+ ## Platform Independence (Write Once, Run Anywhere):
+ Java programs are compiled into bytecode, which is an intermediate form that can be executed on any device with a Java Virtual Machine (JVM).
+
+## Object-Oriented: 
+Java is designed around the principles of object-oriented programming (OOP). It supports concepts such as classes, objects, inheritance, polymorphism, and encapsulation, making it easy to organize and structure code.
+
+## simple
+ Java has a straightforward syntax, and its popularity has led to a large and active developer community. There are plenty of resources, tutorials, and forums available for learning and getting support.
+
+## Robust language
+
+when Java is described as a "robust" programming language, it refers to its ability to provide strong safeguards against errors and its capability to handle unexpected conditions gracefully.
+
+## Security:
+ Java has built-in security features, including a robust security model and a bytecode verifier, which helps ensure that code running on the JVM is safe and doesn't violate security constraints
+
+## Multithreading:
+ Java supports multithreading, allowing developers to write programs that can perform multiple tasks concurrently
