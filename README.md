@@ -44,4 +44,7 @@ every os has its jvm, the output after execution of bytecode is the same accross
 
 ## jdk 
 complete Java development kit that includes JRE, compiler, and some more tools like javaDoc, java Debugger and more.
+for you as a programmer you need to have JDK in order to be able to create java programs.
 
+## JRE
+ is the runtime environment required for running Java applications. It includes the JVM and other libraries that are needed for running Java programs but not for compiling them.
