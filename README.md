@@ -366,17 +366,17 @@ OOP is often the preferred paradigm for developing graphical user interfaces. Th
 3. inheritance
 4. abstraction
 
-Encapsulation:
+### Encapsulation:
 Encapsulation refers to the bundling of data (attributes) and methods (functions) that operate on the data into a single unit known as a class. A class serves as a blueprint for creating objects, and it encapsulates the internal details of how an object works.
 
-Polymorphism:
+### Polymorphism:
 Polymorphism allows objects of different types to be treated as objects of a common type. There are two types of polymorphism in Java: compile-time polymorphism (method overloading) and runtime polymorphism (method overriding). Polymorphism makes it possible to write more generic and reusable code.
 
-Inheritance:
+### Inheritance:
 
 Inheritance allows a class (subclass or derived class) to inherit the properties and behaviors of another class (superclass or base class). This promotes code reuse and establishes a hierarchy of classes, where a subclass can extend or override the functionality of its superclass.
 
-Abstraction:
+### Abstraction:
 Abstraction involves simplifying complex systems by modeling classes based on the essential properties and behaviors relevant to the problem. It allows programmers to focus on what an object does rather than how it achieves its functionality. Abstract classes and interfaces are used to achieve abstraction in Java.
 
 # activity 2
