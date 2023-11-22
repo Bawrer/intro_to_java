@@ -222,3 +222,269 @@ System.out println("Hello World"); -: This method prints the contents inside the
     ```
 
 Remember, this is a basic structure, and the actual structure can vary based on the complexity and purpose of the program. It's also common to organize code into multiple classes and packages for larger projects.
+
+
+# day 3 OOP
+
+what is OOP?
+OOP stands for Object-Oriented Programming, and it is a programming paradigm based on the concept of "objects." Java is a widely used object-oriented programming language, and it embodies the principles of OOP.
+
+Key Concepts in Java OOP:
+Class:
+
+A class is a blueprint or template for creating objects. It defines attributes (fields) and behaviors (methods) that the objects will have.
+Object:
+
+An object is an instance of a class. It is a concrete realization of the class blueprint and represents a specific entity in the program.
+Method:
+
+A method is a function defined within a class. It represents the behavior or actions that objects of the class can perform.
+Instance Variable:
+
+An instance variable is a variable defined in a class and represents the state or properties of an object.
+Constructor:
+
+A constructor is a special method used for initializing objects when they are created. It has the same name as the class and is called automatically when an object is instantiated.
+Java's support for OOP allows for the creation of modular, reusable, and maintainable code. The use of classes and objects facilitates the modeling of real-world entities and their interactions, making it easier to manage and understand complex systems.
+
+# activity 1
+Object-oriented programming (OOP) has become more popular than declarative and procedural programming for several reasons, and its popularity can be attributed to the following advantages:
+
+Modularity and Reusability:
+
+OOP promotes the concept of encapsulation, allowing the bundling of data and methods into a single unit (class). This leads to modular code, where each class represents a self-contained module with well-defined interfaces. This modularity facilitates code organization and makes it easier to reuse and maintain code components.
+Code Reusability:
+
+Inheritance in OOP allows for the creation of new classes that inherit properties and behaviors from existing classes. This promotes code reuse and reduces redundancy. Developers can extend existing classes to create new ones without rewriting the entire code.
+Abstraction:
+
+OOP provides abstraction, allowing developers to focus on the essential properties and behaviors of objects while hiding unnecessary details. Abstract classes and interfaces enable the creation of high-level, generalized blueprints that can be extended to create more specific implementations.
+Encapsulation:
+
+Encapsulation encapsulates the implementation details within a class, exposing only necessary interfaces to the outside world. This reduces the complexity of the code, improves maintainability, and minimizes the risk of unintended interference with the internal workings of a class.
+
+Flexibility and Extensibility:
+
+OOP languages support polymorphism, allowing objects of different types to be treated as objects of a common type. This flexibility enables the development of generic and extensible code, making it easier to adapt to changing requirements.
+Modeling Real-World Concepts:
+
+OOP is well-suited for modeling and simulating real-world entities and their relationships. Concepts like objects, classes, and inheritance closely align with how we think about and categorize things in the real world. This makes OOP a natural choice for applications where the goal is to model and represent complex systems.
+Collaborative Development:
+
+OOP encourages the creation of well-defined interfaces and contracts between different parts of a program. This helps in collaborative development, where teams can work on different parts of a system independently as long as they adhere to the specified interfaces.
+Graphical User Interface (GUI) Development:
+
+OOP is often the preferred paradigm for developing graphical user interfaces. The concept of objects representing visual elements and their interactions aligns well with GUI design principles.
+
+# Features of OOP – Core features
+
+1.Encapsulation
+2. polymorphism
+3. inheritance
+4. abstraction
+
+Encapsulation:
+Encapsulation refers to the bundling of data (attributes) and methods (functions) that operate on the data into a single unit known as a class. A class serves as a blueprint for creating objects, and it encapsulates the internal details of how an object works.
+
+Polymorphism:
+Polymorphism allows objects of different types to be treated as objects of a common type. There are two types of polymorphism in Java: compile-time polymorphism (method overloading) and runtime polymorphism (method overriding). Polymorphism makes it possible to write more generic and reusable code.
+
+Inheritance:
+
+Inheritance allows a class (subclass or derived class) to inherit the properties and behaviors of another class (superclass or base class). This promotes code reuse and establishes a hierarchy of classes, where a subclass can extend or override the functionality of its superclass.
+
+Abstraction:
+Abstraction involves simplifying complex systems by modeling classes based on the essential properties and behaviors relevant to the problem. It allows programmers to focus on what an object does rather than how it achieves its functionality. Abstract classes and interfaces are used to achieve abstraction in Java.
+
+# activity 2
+Here are the three Java classes based on the provided information:
+
+1. **PurchaseItem Class:**
+   ```java
+   public class PurchaseItem {
+       private String name;
+       private double unitPrice;
+
+       // Constructor to initialize instance variables
+       public PurchaseItem(String name, double unitPrice) {
+           this.name = name;
+           this.unitPrice = unitPrice;
+       }
+
+       // Default constructor
+       public PurchaseItem() {
+           this.name = "no item";
+           this.unitPrice = 0;
+       }
+
+       // Method to get the unit price
+       public double getPrice() {
+           return unitPrice;
+       }
+   }
+   ```
+
+2. **WeighedItem Class (Subclass of PurchaseItem):**
+   ```java
+   public class WeighedItem extends PurchaseItem {
+       private double weight;
+
+       // Constructor using superclass constructor
+       public WeighedItem(String name, double unitPrice, double weight) {
+           super(name, unitPrice);
+           this.weight = weight;
+       }
+
+       // Override getPrice method
+       @Override
+       public double getPrice() {
+           // Calculate the price based on unit price and weight
+           return super.getPrice() * weight;
+       }
+   }
+   ```
+
+3. **CountedItem Class (Subclass of PurchaseItem):**
+   ```java
+   public class CountedItem extends PurchaseItem {
+       private int quantity;
+
+       // Constructor using superclass constructor
+       public CountedItem(String name, double unitPrice, int quantity) {
+           super(name, unitPrice);
+           this.quantity = quantity;
+       }
+
+       // Override getPrice method
+       @Override
+       public double getPrice() {
+           // Calculate the price based on unit price and quantity
+           return super.getPrice() * quantity;
+       }
+   }
+   ```
+
+Example of using these classes:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Example of WeighedItem
+        WeighedItem banana = new WeighedItem("Banana", 3.00, 1.37);
+        System.out.println(banana.getName() + " @ " + banana.getPrice() + " R" + banana.getPrice());
+
+        // Example of CountedItem
+        CountedItem pens = new CountedItem("Pens", 4.5, 10);
+        System.out.println(pens.getName() + " @ " + pens.getPrice() + " R" + pens.getPrice());
+    }
+}
+```
+
+In this example, the `WeighedItem` and `CountedItem` classes extend the `PurchaseItem` class. The `getPrice` method is overridden in each subclass to calculate the total price based on the specific properties of that item (weight or quantity). The `super.getPrice()` call is used to access the `getPrice` method of the superclass.
+
+# Features of OOP – Other features
+
+ coupling, cohesion, association, aggregation, and composition—additional concepts related to object-oriented design and programming.
+
+1. **Coupling:**
+   - **Definition:** Coupling refers to the degree of dependence between classes or modules. It measures how much one class knows about another. Low coupling is desirable as it leads to more maintainable and flexible systems.
+   - **Types:**
+     - **Low Coupling:** Classes have minimal knowledge of each other. Changes in one class have minimal impact on others.
+     - **High Coupling:** Classes are closely connected, and changes in one class may require changes in others.
+
+2. **Cohesion:**
+   - **Definition:** Cohesion measures how closely the elements within a module (class or method) are related to each other. High cohesion is desirable as it leads to more maintainable and understandable code.
+   - **Types:**
+     - **High Cohesion:** Elements within a module are closely related and work together to achieve a common goal.
+     - **Low Cohesion:** Elements within a module have weak relationships and may not contribute to a common goal.
+
+3. **Association:**
+   - **Definition:** Association represents a bi-directional relationship between two classes. It can be a one-to-one, one-to-many, or many-to-many relationship.
+   - **Example:** In a university system, a `Student` class may be associated with a `Course` class through enrollment.
+
+4. **Aggregation:**
+   - **Definition:** Aggregation is a special form of association representing a "whole-part" relationship between classes. It implies that one class (the whole) contains another class (the part), but the part can exist independently.
+   - **Example:** In a car example, a `Car` class may have an aggregation relationship with a `Wheel` class. A `Car` has wheels, and wheels can exist independently.
+
+5. **Composition:**
+   - **Definition:** Composition is a stronger form of aggregation, where the part cannot exist independently of the whole. If the whole is destroyed, all its parts are destroyed as well.
+   - **Example:** In a computer example, a `Computer` class may have a composition relationship with a `CPU` class. If the `Computer` is destroyed, the `CPU` is also destroyed.
+
+Understanding these concepts is crucial for designing systems with maintainability, flexibility, and clarity in mind. Properly managing coupling and cohesion helps create systems that are easier to modify and extend. Meanwhile, understanding association, aggregation, and composition allows for modeling real-world relationships more accurately in your code.
+
+## activity 3
+Certainly! Below are three Java classes, `Company`, `Store`, and `Product`, demonstrating the relationships using association and aggregation:
+
+1. **Product Class:**
+   ```java
+   public class Product {
+       private String name;
+       private int quantity;
+       private double price;
+
+       // Constructor
+       public Product(String name, int quantity, double price) {
+           this.name = name;
+           this.quantity = quantity;
+           this.price = price;
+       }
+
+       // Getters and Setters (not shown for brevity)
+   }
+   ```
+
+2. **Store Class (Aggregation with Product):**
+   ```java
+   import java.util.ArrayList;
+   import java.util.List;
+
+   public class Store {
+       private String name;
+       private String location;
+       private List<Product> productList;
+
+       // Constructor
+       public Store(String name, String location) {
+           this.name = name;
+           this.location = location;
+           this.productList = new ArrayList<>();
+       }
+
+       // Aggregation: Adding a Product to the ProductList
+       public void addProduct(Product product) {
+           productList.add(product);
+       }
+
+       // Getters and Setters (not shown for brevity)
+   }
+   ```
+
+3. **Company Class (Association with Store):**
+   ```java
+   import java.util.ArrayList;
+   import java.util.List;
+
+   public class Company {
+       private String name;
+       private List<Store> storeList;
+
+       // Constructor
+       public Company(String name) {
+           this.name = name;
+           this.storeList = new ArrayList<>();
+       }
+
+       // Association: Adding a Store to the StoreList
+       public void addStore(Store store) {
+           storeList.add(store);
+       }
+
+       // Getters and Setters (not shown for brevity)
+   }
+   ```
+
+In the above demo:
+
+- The `Product` class represents a product with attributes such as name, quantity, and price.
+- The `Store` class represents a store with attributes like name, location, and a list of products. The relationship with `Product` is aggregation, as a store contains products, and products can exist independently.
+- The `Company` class represents a company with a name and a list of stores. The relationship with `Store` is association, as a company is associated with multiple stores.
