@@ -223,6 +223,89 @@ System.out println("Hello World"); -: This method prints the contents inside the
 
 Remember, this is a basic structure, and the actual structure can vary based on the complexity and purpose of the program. It's also common to organize code into multiple classes and packages for larger projects.
 
+# day2
+ 
+What is a variable? 
+
+A variable is a name given to a memory location. It is the basic unit of storage in a program. 
+
+The value stored in a variable can be changed during program execution. 
+
+A variable is only a name given to a memory location; all the operations done on the variable effects that memory location. 
+
+In Java, all the variables must be declared before use. 
+
+How to declare variables? 
+
+type: Type of data that can be stored in this variable. 
+
+name: Name given to the variable. 
+
+It can be assigned values in two ways: 
+
+Variable Initialization 
+
+Assigning value by taking input. 
+
+ 
+
+Declaring and initialize variables: 
+
+datatype: Type of data that can be stored in this variable. 
+
+variable_name: Name given to the variable. 
+
+value: It is the initial value stored in the variable. 
+
+Declaring variables examples 
+
+float simpleInterest; - Declaring float variable 
+
+int myAge = 19; - Declaring and Initializing integer variable 
+
+char firstLetter = 'h'; - Declaring and Initializing character variable 
+
+ 
+
+ 
+
+There are three types of variables in Java: 
+
+ 
+
+Local Variables: A variable defined within a block or method or constructor is called local variable. 
+
+Instance Variables: Instance variables are non-static variables and are declared in a class outside any method, constructor or block. 
+
+Static Variables: Static variables are also known as Class variables. 
+
+ 
+
+Data types in Java: 
+
+1) Primitive data types - A primitive data type specifies the size and type of variable values, and it has no additional methods. 
+
+2)  Non-primitive data types – Arrays and Strings are non-primitive data types, these are the datatypes which have instances like objects. Hence, they are called reference variables. They are primarily classes, arrays, strings or interfaces. 
+
+ 
+
+There are eight primitive data types in Java: 
+
+Byte 
+
+Short 
+
+Int 
+
+Long 
+
+Float 
+
+Double 
+
+Boolean 
+
+Char 
 
 # day 3 OOP
 
