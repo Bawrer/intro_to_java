@@ -1558,3 +1558,62 @@ Sure, here's a simplified summary:
 - **Purpose:** Removes a remote branch from the command line. 
 
 - **Usage:** `$ git push origin --delete <branch name>` 
+
+# WEEK3 day 1
+## SDLCs
+### what is SDLC?
+The Software Development Life Cycle (SDLC) is a structured process that enables the production of high-quality, low-cost software, in the shortest possible production time. The goal of the SDLC is to produce superior software that meets and exceeds all customer expectations and demands.
+
+#### steps of SDLC
+
+The Software Development Life Cycle (SDLC) is a systematic process for planning, creating, testing, deploying, and maintaining information systems. The SDLC typically consists of seven phases, each with its own set of activities and deliverables. These phases provide a structured approach to software development, ensuring that the final product meets the requirements and expectations of stakeholders. The seven phases of the SDLC are as follows:
+
+1. **Planning:**
+   - Identify the scope, purpose, and objectives of the project.
+   - Define project timelines, milestones, and resources.
+   - Conduct feasibility studies and risk assessments.
+   - Develop a project plan and obtain approvals.
+
+2. **Feasibility Study:**
+   - Assess the technical, operational, and economic feasibility of the project.
+   - Identify potential risks and constraints.
+   - Evaluate alternative solutions and select the most viable option.
+   - Prepare a feasibility report for management approval.
+
+3. **Design:**
+   - Create a detailed design based on the requirements gathered during the planning phase.
+   - Define system architecture, components, modules, and data structures.
+   - Specify interfaces and interactions between system components.
+   - Produce design documentation, including technical specifications.
+
+4. **Implementation (Coding):**
+   - Write code based on the detailed design specifications.
+   - Follow coding standards and best practices.
+   - Conduct unit testing to ensure individual components function as intended.
+   - Debug and fix any defects found during testing.
+
+5. **Testing:**
+   - Conduct various testing activities to ensure the system meets the specified requirements.
+   - Types of testing may include unit testing, integration testing, system testing, and user acceptance testing.
+   - Identify and fix defects or issues discovered during testing.
+   - Ensure that the software is reliable, secure, and performs as expected.
+
+6. **Deployment (or Implementation):**
+   - Deploy the software to the production environment.
+   - Train end-users and support staff.
+   - Monitor the system during the initial period of use.
+   - Address any issues that arise during the deployment phase.
+
+7. **Maintenance and Support:**
+   - Provide ongoing support, maintenance, and updates to the software.
+   - Address bug fixes and make enhancements based on user feedback.
+   - Monitor the system's performance and security.
+   - Evaluate the need for future updates or releases.
+  
+     # benefits of SDLC
+-better management control over the entire development project
+-transparency and visibility of all the processes
+-clarity of requirements
+-a single vision of a product for all the parties involved
+-predictable results in terms of time, costs, and deliverables
+-reduced risk of going off the track
