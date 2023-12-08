@@ -1628,9 +1628,9 @@ The waterfall Model illustrates the software development process in a linear seq
 Waterfall Model - Design
 Waterfall approach was first SDLC Model to be used widely in Software Engineering to ensure success of the project. In "The Waterfall" approach, the whole process of software development is divided into separate phases. In this Waterfall model, typically, the outcome of one phase acts as the input for the next phase sequentially.
 
-The following illustration is a representation of the different phases of the Waterfall Model.
+### The following illustration is a representation of the different phases of the Waterfall Model.
 
-SDLC Waterfall Model
+## SDLC Waterfall Model
 
 The sequential phases in Waterfall model are −
 
@@ -1648,7 +1648,7 @@ Maintenance − There are some issues which come up in the client environment. T
 
 All these phases are cascaded to each other in which progress is seen as flowing steadily downwards (like a waterfall) through the phases. The next phase is started only after the defined set of goals are achieved for previous phase and it is signed off, so the name "Waterfall Model". In this model, phases do not overlap.
 
-Waterfall Model - Application
+## Waterfall Model - Application
 Every software developed is different and requires a suitable SDLC approach to be followed based on the internal and external factors. Some situations where the use of Waterfall model is most appropriate are −
 
 Requirements are very well documented, clear and fixed.
@@ -1663,7 +1663,7 @@ Ample resources with required expertise are available to support the product.
 
 The project is short.
 
-Waterfall Model - Advantages
+#### Waterfall Model - Advantages
 The advantages of waterfall development are that it allows for departmentalization and control. A schedule can be set with deadlines for each stage of development and a product can proceed through the development process model phases one by one.
 
 Development moves from concept, through design, implementation, testing, installation, troubleshooting, and ends up at operation and maintenance. Each phase of development proceeds in strict order.
@@ -1686,7 +1686,8 @@ Easy to arrange tasks.
 
 Process and results are well documented.
 
-Waterfall Model - Disadvantages
+
+#### Waterfall Model - Disadvantages
 The disadvantage of waterfall development is that it does not allow much reflection or revision. Once an application is in the testing stage, it is very difficult to go back and change something that was not well-documented or thought upon in the concept stage.
 
 The major disadvantages of the Waterfall Model are as follows −
@@ -1709,7 +1710,7 @@ Adjusting scope during the life cycle can end a project.
 
 Integration is done as a "big-bang. at the very end, which doesn't allow identifying any technological or business bottleneck or challenges early.
 
-SDLC - Iterative Model
+### SDLC - Iterative Model
 In the Iterative model, iterative process starts with a simple implementation of a small set of the software requirements and iteratively enhances the evolving versions until the complete system is implemented and ready to be deployed.
 
 An iterative life cycle model does not attempt to start with a full specification of requirements. Instead, development begins by specifying and implementing just part of the software, which is then reviewed to identify further requirements. This process is then repeated, producing a new version of the software at the end of each iteration of the model.
@@ -1727,7 +1728,7 @@ In this incremental model, the whole requirement is divided into various builds.
 
 The key to a successful use of an iterative software development lifecycle is rigorous validation of requirements, and verification & testing of each version of the software against those requirements within each cycle of the model. As the software evolves through successive cycles, tests must be repeated and extended to verify each version of the software.
 
-Iterative Model - Application
+### Iterative Model - Application
 Like other SDLC models, Iterative and incremental development has some specific applications in the software industry. This model is most often used in the following scenarios −
 
 Requirements of the complete system are clearly defined and understood.
@@ -1742,7 +1743,7 @@ Resources with needed skill sets are not available and are planned to be used on
 
 There are some high-risk features and goals which may change in the future.
 
-Iterative Model - Pros and Cons
+#### Iterative Model - Pros and Cons
 The advantage of this model is that there is a working model of the system at a very early stage of development, which makes it easier to find functional or design flaws. Finding issues at an early stage of development enables to take corrective measures in a limited budget.
 
 The disadvantage with this SDLC model is that it is applicable only to large and bulky software development projects. This is because it is hard to break a small software system into further small serviceable increments/modules.
@@ -1801,13 +1802,13 @@ Highly skilled resources are required for risk analysis.
 
 Projects progress is highly dependent upon the risk analysis phase.
 
-SDLC - Spiral Model
+### SDLC - Spiral Model
 The spiral model combines the idea of iterative development with the systematic, controlled aspects of the waterfall model. This Spiral model is a combination of iterative development process model and sequential linear development model i.e. the waterfall model with a very high emphasis on risk analysis. It allows incremental releases of the product or incremental refinement through each iteration around the spiral.
 
 Spiral Model - Design
 The spiral model has four phases. A software project repeatedly passes through these phases in iterations called Spirals.
 
-Identification
+#### Identification
 This phase starts with gathering the business requirements in the baseline spiral. In the subsequent spirals as the product matures, identification of system requirements, subsystem requirements and unit requirements are all done in this phase.
 
 This phase also includes understanding the system requirements by continuous communication between the customer and the system analyst. At the end of the spiral, the product is deployed in the identified market.
@@ -1825,7 +1826,7 @@ Risk Analysis includes identifying, estimating and monitoring the technical feas
 
 The following illustration is a representation of the Spiral Model, listing the activities in each phase.
 
-SDLC Spiral Model
+### SDLC Spiral Model
 
 Based on the customer evaluation, the software development process enters the next iteration and subsequently follows the linear approach to implement the feedback suggested by the customer. The process of iterations along the spiral continues throughout the life of the software.
 
@@ -1848,14 +1849,14 @@ New product line which should be released in phases to get enough customer feedb
 
 Significant changes are expected in the product during the development cycle.
 
-Spiral Model - Pros and Cons
+### Spiral Model - Pros and Cons
 The advantage of spiral lifecycle model is that it allows elements of the product to be added in, when they become available or known. This assures that there is no conflict with previous requirements and design.
 
 This method is consistent with approaches that have multiple software builds and releases which allows making an orderly transition to a maintenance activity. Another positive aspect of this method is that the spiral model forces an early user involvement in the system development effort.
 
 On the other side, it takes a very strict management to complete such products and there is a risk of running the spiral in an indefinite loop. So, the discipline of change and the extent of taking change requests is very important to develop and deploy the product successfully.
 
-The advantages of the Spiral SDLC Model are as follows −
+#### The advantages of the Spiral SDLC Model are as follows −
 
 Changing requirements can be accommodated.
 
@@ -1867,7 +1868,7 @@ Users see the system early.
 
 Development can be divided into smaller parts and the risky parts can be developed earlier which helps in better risk management.
 
-The disadvantages of the Spiral SDLC Model are as follows −
+##### The disadvantages of the Spiral SDLC Model are as follows −
 
 Management is more complex.
 
@@ -1882,12 +1883,12 @@ Spiral may go on indefinitely.
 Large number of intermediate stages requires excessive documentation.
 
 
-SDLC - V-Model
+## SDLC - V-Model
 The V-model is an SDLC model where execution of processes happens in a sequential manner in a V-shape. It is also known as Verification and Validation model.
 
 The V-Model is an extension of the waterfall model and is based on the association of a testing phase for each corresponding development stage. This means that for every single phase in the development cycle, there is a directly associated testing phase. This is a highly-disciplined model and the next phase starts only after completion of the previous phase.
 
-V-Model - Design
+### V-Model - Design
 Under the V-Model, the corresponding testing phase of the development phase is planned in parallel. So, there are Verification phases on one side of the ‘V’ and Validation phases on the other side. The Coding Phase joins the two sides of the V-Model.
 
 The following illustration depicts the different phases in a V-Model of the SDLC.
@@ -1897,44 +1898,44 @@ SDLC V-Model
 V-Model - Verification Phases
 There are several Verification phases in the V-Model, each of these are explained in detail below.
 
-Business Requirement Analysis
+###### Business Requirement Analysis
 This is the first phase in the development cycle where the product requirements are understood from the customer’s perspective. This phase involves detailed communication with the customer to understand his expectations and exact requirement. This is a very important activity and needs to be managed well, as most of the customers are not sure about what exactly they need. The acceptance test design planning is done at this stage as business requirements can be used as an input for acceptance testing.
 
-System Design
+#### System Design
 Once you have the clear and detailed product requirements, it is time to design the complete system. The system design will have the understanding and detailing the complete hardware and communication setup for the product under development. The system test plan is developed based on the system design. Doing this at an earlier stage leaves more time for the actual test execution later.
 
-Architectural Design
+#### Architectural Design
 Architectural specifications are understood and designed in this phase. Usually more than one technical approach is proposed and based on the technical and financial feasibility the final decision is taken. The system design is broken down further into modules taking up different functionality. This is also referred to as High Level Design (HLD).
 
 The data transfer and communication between the internal modules and with the outside world (other systems) is clearly understood and defined in this stage. With this information, integration tests can be designed and documented during this stage.
 
-Module Design
+##### Module Design
 In this phase, the detailed internal design for all the system modules is specified, referred to as Low Level Design (LLD). It is important that the design is compatible with the other modules in the system architecture and the other external systems. The unit tests are an essential part of any development process and helps eliminate the maximum faults and errors at a very early stage. These unit tests can be designed at this stage based on the internal module designs.
 
-Coding Phase
+#### Coding Phase
 The actual coding of the system modules designed in the design phase is taken up in the Coding phase. The best suitable programming language is decided based on the system and architectural requirements.
 
 The coding is performed based on the coding guidelines and standards. The code goes through numerous code reviews and is optimized for best performance before the final build is checked into the repository.
 
-Validation Phases
+#### Validation Phases
 The different Validation Phases in a V-Model are explained in detail below.
 
-Unit Testing
+#### bUnit Testing
 Unit tests designed in the module design phase are executed on the code during this validation phase. Unit testing is the testing at code level and helps eliminate bugs at an early stage, though all defects cannot be uncovered by unit testing.
 
-Integration Testing
+##### Integration Testing
 Integration testing is associated with the architectural design phase. Integration tests are performed to test the coexistence and communication of the internal modules within the system.
 
-System Testing
+#### System Testing
 System testing is directly associated with the system design phase. System tests check the entire system functionality and the communication of the system under development with external systems. Most of the software and hardware compatibility issues can be uncovered during this system test execution.
 
-Acceptance Testing
+##### Acceptance Testing
 Acceptance testing is associated with the business requirement analysis phase and involves testing the product in user environment. Acceptance tests uncover the compatibility issues with the other systems available in the user environment. It also discovers the non-functional issues such as load and performance defects in the actual user environment.
 
-V- Model ─ Application
+#### V- Model ─ Application
 V- Model application is almost the same as the waterfall model, as both the models are of sequential type. Requirements have to be very clear before the project starts, because it is usually expensive to go back and make changes. This model is used in the medical development field, as it is strictly a disciplined domain.
 
-The following pointers are some of the most suitable scenarios to use the V-Model application.
+### The following pointers are some of the most suitable scenarios to use the V-Model application.
 
 Requirements are well defined, clearly documented and fixed.
 
@@ -1946,10 +1947,10 @@ There are no ambiguous or undefined requirements.
 
 The project is short.
 
-V-Model - Pros and Cons
+#### V-Model - Pros and Cons
 The advantage of the V-Model method is that it is very easy to understand and apply. The simplicity of this model also makes it easier to manage. The disadvantage is that the model is not flexible to changes and just in case there is a requirement change, which is very common in today’s dynamic world, it becomes very expensive to make the change.
 
-The advantages of the V-Model method are as follows −
+### The advantages of the V-Model method are as follows −
 
 This is a highly-disciplined model and Phases are completed one at a time.
 
@@ -1959,7 +1960,7 @@ Simple and easy to understand and use.
 
 Easy to manage due to the rigidity of the model. Each phase has specific deliverables and a review process.
 
-The disadvantages of the V-Model method are as follows −
+### The disadvantages of the V-Model method are as follows −
 
 High risk and uncertainty.
 
@@ -1973,7 +1974,7 @@ Once an application is in the testing stage, it is difficult to go back and chan
 
 No working software is produced until late during the life cycle.
 
-SDLC - Big Bang Model
+## SDLC - Big Bang Model
 The Big Bang model is an SDLC model where we do not follow any specific process. The development just starts with the required money and efforts as the input, and the output is the software developed which may or may not be as per customer requirement. This Big Bang Model does not follow a and there is very little planning required. Even the customer is not sure about what exactly he wants and the requirements are implemented on the fly without much analysis.
 
 Usually this model is followed for small projects where the development teams are very small.
@@ -1983,12 +1984,12 @@ The Big Bang Model comprises of focusing all the possible resources in the softw
 
 This model is ideal for small projects with one or two developers working together and is also useful for academic or practice projects. It is an ideal model for the product where requirements are not well understood and the final release date is not given.
 
-Big Bang Model - Pros and Cons
+#### Big Bang Model - Pros and Cons
 The advantage of this Big Bang Model is that it is very simple and requires very little or no planning. Easy to manage and no formal procedure are required.
 
 However, the Big Bang Model is a very high risk model and changes in the requirements or misunderstood requirements may even lead to complete reversal or scraping of the project. It is ideal for repetitive or small projects with minimum risks.
 
-The advantages of the Big Bang Model are as follows −
+### The advantages of the Big Bang Model are as follows −
 
 This is a very simple model
 
@@ -2002,7 +2003,7 @@ Gives flexibility to developers
 
 It is a good learning aid for new comers or students.
 
-The disadvantages of the Big Bang Model are as follows −
+#### The disadvantages of the Big Bang Model are as follows −
 
 Very High risk and uncertainty.
 
@@ -2012,7 +2013,7 @@ Poor model for long and ongoing projects.
 
 Can turn out to be very expensive if requirements are misunderstood.
 
-SDLC - Agile Model
+### SDLC - Agile Model
 Agile SDLC model is a combination of iterative and incremental process models with focus on process adaptability and customer satisfaction by rapid delivery of working software product. Agile Methods break the product into small incremental builds. These builds are provided in iterations. Each iteration typically lasts from about one to three weeks. Every iteration involves cross functional teams working simultaneously on various areas like −
 
 Planning
@@ -2023,7 +2024,7 @@ Unit Testing and
 Acceptance Testing.
 At the end of the iteration, a working product is displayed to the customer and important stakeholders.
 
-What is Agile?
+## What is Agile?
 Agile model believes that every project needs to be handled differently and the existing methods need to be tailored to best suit the project requirements. In Agile, the tasks are divided to time boxes (small time frames) to deliver specific features for a release.
 
 Iterative approach is taken and working software build is delivered after each iteration. Each build is incremental in terms of features; the final build holds all the features required by the customer.
@@ -2058,7 +2059,7 @@ Customer Interaction is the backbone of this Agile methodology, and open communi
 Agile Model - Pros and Cons
 Agile methods are being widely accepted in the software world recently. However, this method may not always be suitable for all products. Here are some pros and cons of the Agile model.
 
-The advantages of the Agile Model are as follows −
+#### The advantages of the Agile Model are as follows −
 
 Is a very realistic approach to software development.
 
@@ -2084,7 +2085,7 @@ Easy to manage.
 
 Gives flexibility to developers.
 
-The disadvantages of the Agile Model are as follows −
+### The disadvantages of the Agile Model are as follows −
 
 Not suitable for handling complex dependencies.
 
@@ -2100,12 +2101,12 @@ There is a very high individual dependency, since there is minimum documentation
 
 Transfer of technology to new team members may be quite challenging due to lack of documentation.
 
-SDLC - RAD Model
+## SDLC - RAD Model
 The RAD (Rapid Application Development) model is based on prototyping and iterative development with no specific planning involved. The process of writing the software itself involves the planning required for developing the product.
 
 Rapid Application Development focuses on gathering customer requirements through workshops or focus groups, early testing of the prototypes by the customer using iterative concept, reuse of the existing prototypes (components), continuous integration and rapid delivery.
 
-What is RAD?
+### What is RAD?
 Rapid application development is a software development methodology that uses minimal planning in favor of rapid prototyping. A prototype is a working model that is functionally equivalent to a component of the product.
 
 In the RAD model, the functional modules are developed in parallel as prototypes and are integrated to make the complete product for faster product delivery. Since there is no detailed preplanning, it makes it easier to incorporate the changes within the development process.
@@ -2163,7 +2164,7 @@ Should be used where the requirements change during the project and working prot
 RAD Model - Pros and Cons
 RAD model enables rapid delivery as it reduces the overall development time due to the reusability of the components and parallel development. RAD works well only if high skilled engineers are available and the customer is also committed to achieve the targeted prototype in the given time frame. If there is commitment lacking on either side the model may fail.
 
-The advantages of the RAD Model are as follows −
+### The advantages of the RAD Model are as follows −
 
 Changing requirements can be accommodated.
 
@@ -2183,7 +2184,7 @@ Encourages customer feedback.
 
 Integration from very beginning solves a lot of integration issues.
 
-The disadvantages of the RAD Model are as follows −
+### The disadvantages of the RAD Model are as follows −
 
 Dependency on technically strong team members for identifying business requirements.
 
@@ -2204,7 +2205,7 @@ Requires user involvement throughout the life cycle.
 Suitable for project requiring shorter development times.
 
 
-SDLC - Software Prototype Model
+## SDLC - Software Prototype Model
 The Software Prototyping refers to building software application prototypes which displays the functionality of the product under development, but may not actually hold the exact logic of the original software.
 
 Software prototyping is becoming very popular as a software development model, as it enables to understand customer requirements at an early stage of development. It helps get valuable feedback from the customer and helps software designers and developers understand about what exactly is expected from the product under development.
@@ -2255,7 +2256,7 @@ Software that involves too much of data processing and most of the functionality
 Software Prototyping - Pros and Cons
 Software prototyping is used in typical cases and the decision should be taken very carefully so that the efforts spent in building the prototype add considerable value to the final software developed. The model has its own pros and cons discussed as follows.
 
-The advantages of the Prototyping Model are as follows −
+### The advantages of the Prototyping Model are as follows −
 
 Increased user involvement in the product even before its implementation.
 
@@ -2269,7 +2270,7 @@ Missing functionality can be identified easily.
 
 Confusing or difficult functions can be identified.
 
-The Disadvantages of the Prototyping Model are as follows −
+### The Disadvantages of the Prototyping Model are as follows −
 
 Risk of insufficient requirement analysis owing to too much dependency on the prototype.
 
